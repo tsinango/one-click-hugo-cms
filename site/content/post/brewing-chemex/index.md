@@ -1,25 +1,94 @@
 ---
-title: A beginners’ guide to brewing with Chemex
-date: 2017-01-04T15:04:10.000Z
-description: Brewing with a Chemex probably seems like a complicated,
-  time-consuming ordeal, but once you get used to the process, it becomes a
-  soothing ritual that's worth the effort every time.
-image: blog-chemex.jpg
+title: Настройка учёта рабочего  времени в iVMS-4200
+date: 2026-03-03T13:00:28.141Z
+description: |
+  Перед тем, как перейти к настройкам учёта рабочего 
+  времени, добавьте организацию и сотрудников в
+  разделе Person
+image: ""
 ---
+1. перейдите в раздел Time&Attendance, как 
 
-This [week](/wdwdw) we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts\*.
+показано ниже на скринах:
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is *"one of the best-designed products of modern times"*, and so is included in the collection of the Museum of Modern Art in New York City.
+3
 
-## The little secrets of Chemex brewing
+2. далее перейдите во вкладку “Report Display”
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+и введите название организации. Оно будет 
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
+отображаться в отчёте.
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
+4
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+3. В Attendance Settings > General Rule
+
+установите выходные дни, время входа, 
+
+отсутствия и другие настройки
+
+5
+
+4. Далее в разделе Attendance Strategy >
+
+Timetable установите расписание, выбрав 
+
+для него название. Можно также задать 
+
+другие параметры, например, допустимое 
+
+опоздание или время ухода.
+
+6
+
+В соседней вкладке Break time можно настроить 
+
+время перерыва
+
+7
+
+5. Далее переходим во вкладку Attendance
+
+Strategy > Shift для настройки смены
+
+8
+
+Кликнув Assign, мы можем присвоить настроенную 
+
+смену всей организации, конкретному
+
+подразделению либо определённому сотруднику
+
+9
+
+6. Во вкладке Shift Schedule можно установить 
+
+период, в который данное расписание будет 
+
+действительно (для организации, 
+
+подразделения или сотрудника):
+
+Генерация отчёта
+
+1. Во вкладке Attendance Statistics > Calculation
+
+кликаем на Calculate, выбрав нужный
+
+период и другие параметры
+
+10
+
+2. Затем переходим в Attendance Statistics >
+
+Report, нажимаем на First/Last Access, 
+
+выставляем нужные параметры и нажимаем 
+
+Report в правом нижнем углу
+
+11
+
+3. Полученный отчёт можно сохранить в 
+
+удобном вид
